@@ -53,10 +53,6 @@ const Grid = styled.div`
 	flex-wrap: nowrap;
 `;
 
-const ButtonRelease = styled.button`
-	flex-direction: column;
-`;
-
 const Card = styled.div`
 	text-align: center;
 	margin: 0.5rem;
@@ -88,7 +84,6 @@ const Text = styled.div`
 
 const Mypokemon = () => {
 	const [myPokemons, setMyPokemons] = useState([]);
-	console.log(myPokemons);
 	const router = useRouter();
 	useEffect(() => {
 		const storedData = localStorage.getItem("myPokemons");
