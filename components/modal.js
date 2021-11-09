@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 import gif1 from "../Images/SuccessCatch.gif";
 import gif2 from "../Images/FailCatch.gif";
-import Image from "next/Image";
+import Image from "next/image";
 
 const ModalContainer = styled.div`
 	position: fixed;
