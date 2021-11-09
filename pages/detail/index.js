@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import Image from "next/image";
 import styled from "@emotion/styled";
 import { useQuery } from "@apollo/client";
-import { GET_POKEMON_DETAIL, GET_POKEMONS } from "../graphQl/queries";
+import { GET_POKEMON_DETAIL, GET_POKEMONS } from "../../graphQl/queries";
 import Arrow from "../../components/Icon/IconArrow";
 import Modal from "../../components/modal";
 import ArrowRight from "../../components/Icon/IconArrowRight";
