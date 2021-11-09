@@ -3,7 +3,7 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import styled from "@emotion/styled";
 import { useQuery } from "@apollo/client";
-import { GET_POKEMONS } from "../graphQl/queries.js";
+import { GET_POKEMONS } from "./graphQl/queries.js";
 import ArrowRight from "../components/Icon/IconArrowRight";
 
 const Container = styled.div`
